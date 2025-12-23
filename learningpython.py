@@ -60,3 +60,9 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 print(factorial(5))
+
+# palindrom checking a string
+def is_palindrome(s):
+    return s == s[::-1]
+print(is_palindrome("radar"))
+print(is_palindrome("hello"))           
